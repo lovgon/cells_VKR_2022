@@ -53,7 +53,7 @@ async def create_upload_files(
     return ProcessModelResponse(
         files=files,
         total_time=total_time,
-        econom_time=9/total_time,
+        econom_time=9/avg_time,
         avg_time=avg_time,
         batch_id=batch_id,
 
